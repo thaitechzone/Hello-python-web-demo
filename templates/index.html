@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Farm Control - ระบบควบคุมฟาร์มอัจฉริยะ</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <div class="logo">🌱 Smart Farm Control</div>
+                <ul class="nav-links">
+                    <li><a href="#home">หน้าแรก</a></li>
+                    <li><a href="#features">ระบบควบคุม</a></li>
+                    <li><a href="#about">เกี่ยวกับเรา</a></li>
+                    <li><a href="#contact">ติดต่อเรา</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>ระบบควบคุมฟาร์มอัจฉริยะ</h1>
+                <p>เทคโนโลยี IoT และ AI เพื่อการเกษตรสมัยใหม่</p>
+                <p class="hero-subtitle">เพิ่มผลผลิต ลดต้นทุน ควบคุมได้ทุกที่ ทุกเวลา</p>
+                <div class="cta-buttons">
+                    <button class="btn btn-primary">เริ่มใช้งานฟรี</button>
+                    <button class="btn btn-secondary">ดูการทำงาน</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="features">
+            <h2>ระบบควบคุมอัจฉริยะ</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="icon">📊</div>
+                    <h3>วิเคราะห์ข้อมูล</h3>
+                    <p>ติดตามและวิเคราะห์ข้อมูลแบบเรียลไทม์ด้วย AI และ Machine Learning</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon">💧</div>
+                    <h3>ระบบน้ำอัตโนมัติ</h3>
+                    <p>ควบคุมการให้น้ำอัตโนมัติตามความชื้นของดินและสภาพอากาศ</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon">🌡️</div>
+                    <h3>เซ็นเซอร์อัจฉริยะ</h3>
+                    <p>ตรวจวัดอุณหภูมิ ความชื้น แสง และคุณภาพดินตลอด 24 ชั่วโมง</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon">📱</div>
+                    <h3>ควบคุมทุกที่</h3>
+                    <p>เข้าถึงและควบคุมฟาร์มได้ทุกที่ผ่าน Mobile App และ Web Dashboard</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon">🔔</div>
+                    <h3>แจ้งเตือนอัจฉริยะ</h3>
+                    <p>ระบบแจ้งเตือนทันทีเมื่อค่าต่างๆ ผิดปกติหรือต้องการความสนใจ</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon">⚡</div>
+                    <h3>ประหยัดพลังงาน</h3>
+                    <p>ปรับการใช้พลังงานอัตโนมัติเพื่อลดค่าใช้จ่ายและเพิ่มประสิทธิภาพ</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <h2>เกี่ยวกับ Smart Farm Control</h2>
+            <p>เรานำเทคโนโลยี IoT, AI และระบบอัตโนมัติมาผสมผสานเพื่อสร้างระบบควบคุมฟาร์มที่ทันสมัย 
+            ช่วยให้เกษตรกรสามารถเพิ่มผลผลิต ลดต้นทุนการผลิต และจัดการฟาร์มได้อย่างมีประสิทธิภาพมากขึ้น 
+            ด้วยระบบการตรวจวัดและควบคุมอัตโนมัติที่แม่นยำ คุณสามารถมั่นใจได้ว่าพืชผลของคุณจะได้รับการดูแล
+            อย่างเหมาะสมตลอด 24 ชั่วโมง</p>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>สนใจใช้บริการ</h2>
+            <p class="contact-subtitle">ทีมงานของเราพร้อมให้คำปรึกษาและช่วยเหลือคุณ</p>
+            <form class="contact-form">
+                <input type="text" placeholder="ชื่อ - นามสกุล" required>
+                <input type="email" placeholder="อีเมล" required>
+                <input type="tel" placeholder="เบอร์โทรศัพท์" required>
+                <textarea placeholder="บอกเราเกี่ยวกับฟาร์มของคุณ" rows="5" required></textarea>
+                <button type="submit" class="btn btn-primary">ส่งข้อมูล</button>
+            </form>
+        </section>
+
+        <footer>
+            <p>&copy; 2026 Smart Farm Control. ระบบควบคุมฟาร์มอัจฉริยะ - Powered by IoT & AI</p>
+        </footer>
+    </div>
+</body>
+</html>
