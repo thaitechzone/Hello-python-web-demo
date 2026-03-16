@@ -1,5 +1,5 @@
 # ใช้ Python 3.11 slim image เป็น base
-FROM python:3.11-slim
+FROM python:3.14-slim
 
 # ตั้ง working directory ใน container
 WORKDIR /app
